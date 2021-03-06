@@ -5,6 +5,8 @@ Supports cross-referencing, recognition of stack and global variables, displayin
 
 Written for Python 2.7 and tested on IDA Pro 6.8 and 7.2 with IDAPython plugin, it may not work on recent IDA versions.
 
+![ida-sourcepawn](https://user-images.githubusercontent.com/63844820/110215147-554b9b80-7eb9-11eb-8ea2-c36781eb3ba1.png)
+
 ### Problems
 - If the branching instruction refers to a lower address, the stack pointer may not be traced correctly.
 - Subroutine calling instructions may also incorrectly recognize a stack pointer change if the previous instruction did not specify the number of arguments passed to the function.
