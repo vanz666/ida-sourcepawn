@@ -5,6 +5,8 @@ Supports cross-referencing, recognition of stack and global variables, displayin
 
 Written for Python 2.7 and tested on IDA Pro 6.8 and 7.2 with IDAPython plugin, it may not work on recent IDA versions.
 
+Parsing of debug symbols is not yet implemented, but it may be implemented in the future.
+
 ![ida-sourcepawn](https://user-images.githubusercontent.com/63844820/110215147-554b9b80-7eb9-11eb-8ea2-c36781eb3ba1.png)
 
 ### Problems
